@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #D0DB97;
+}
+
+.gamename{
+    font-size: 40px;
+    margin: 20px;
+    color: #181D27;
+}
+
+.newbutt{
+    margin: 260px;
+}
+
+.cong{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.new {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #254D32;
+    border-radius: 10px;
+    background-color: #69B578;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    column-gap: 10px;
+}
+
+.box{
+    height: 30%;
+    width: 30%;
+    padding: auto;
+    font-size: 50px;
+    color: #254D32;
+    border: 1px solid #254d32;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #618b6f;
+}
+
+.hover:hover{
+    background-color: #298a3c;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(82, 81, 81);
+    scale: 1.03;
+}
+
+.newgame{
+    margin: 220px;
+}
+
+.newbtn{
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #254D32;
+    border-radius: 10px;
+    background-color: #254D32;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(82, 81, 81);
+
+}
+
+.resetbtn {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #254D32;
+    border-radius: 10px;
+    background-color: #254D32;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(82, 81, 81);
+
+}
+
+.hide{
+    display: none ;
+}
